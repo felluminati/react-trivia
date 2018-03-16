@@ -1,6 +1,6 @@
 var data = [
   {
-    "category": "React 101",
+    "category": "Express",
     "questions": [
       {
         "points": 100,
@@ -25,7 +25,7 @@ var data = [
     ]
   },
   {
-    "category": "React 201",
+    "category": "Sequelize",
     "questions": [
       {
         "points": 100,
@@ -50,7 +50,7 @@ var data = [
     ]
   },
   {
-    "category": "ES 2015",
+    "category": "CSS",
     "questions": [
       {
         "points": 100,
