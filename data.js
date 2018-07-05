@@ -1,102 +1,153 @@
 var data = [
   {
-    "category": "Express",
+    "category": "Express Yourself",
     "questions": [
       {
-        "points": 100,
-        "question": "<p>What part of your application does React focus on?</p><ol><li>The Model</li><li>The View</li><li>The Controller</li><li>All of the above</li></ol>",
-        "answer": "B. The View"
+        "points": '$100',
+        "question": "These 3 arguments are passed into the callback function when using methods like app.get, app.put or app.delete",
+        "answer": "What is req, res & next?"
       },
       {
-        "points": 200,
-        "question": "_____ lets you create JavaScript objects using HTML syntax",
-        "answer": "JSX"
+        "points": '$200',
+        "question": "Without this app method, your application won't hear http requests",
+        "answer": "What is listen?"
       },
       {
-        "points": 300,
-        "question": "What tool can you use to transpile JSX?",
-        "answer": "Babel"
+        "points": '$300',
+        "question": "This express middleware function designates a directory from which you can serve images, CSS and javascript files",
+        "answer": "What is static?"
       },
       {
-        "points": 400,
-        "question": "React uses a _____________ to limit direct manipulation of the DOM and improve performance",
-        "answer": "Virtual DOM"
+        "points": '$400',
+        "question": "This app method is used to create new instances in your database",
+        "answer": "What is post?"
+      },
+      {
+        "points": '$500',
+        "question": "This app method is for mounting a middleware function at the specified path and is executed whenever it matches the request path",
+        "answer": "What is use?"
       }
     ]
   },
   {
-    "category": "Sequelize",
+    "category": "Sequelize Part Deux",
     "questions": [
       {
-        "points": 100,
-        "question": "<p>Where can you define a component's initial state when you use the ES6 Class syntax?</p><ol><li>getInitialState()</li><li>getInitialProps()</li><li>The component's constructor</li></ol>",
-        "answer": "C. The component's constructor"
+        "points": '$100',
+        "question": "This Sequelize keyword can specify whether or not a column can have no value",
+        "answer": "What is allowNull?"
       },
       {
-        "points": 200,
-        "question": "Using npm, which package should you require/import in addition to 'react' to render a React component in an existing DOM element of your HTML file?",
-        "answer": "react-dom"
+        "points": '$200',
+        "question": "These columns do not get saved to the database, rather they are calculated based on values in other columns",
+        "answer": "What are virtual columns?"
       },
       {
-        "points": 300,
-        "question": "<p>Which lifecycle function should you use to set default property values?</p><ol><li>getInitialState</li><li>getInitialProps</li><li>getDefaultProps</li></ol>",
-        "answer": "C. getDefaultProps"
+        "points": '$300',
+        "question": "This sequelize method searches for an existing object. If it's not there, it makes it!",
+        "answer": "What is findOrCreate?"
       },
       {
-        "points": 400,
-        "question": "Which lifecycle method is invoked once, immediately after the initial rendering occurs?",
-        "answer": "componentDidMount"
+        "points": '$400',
+        "question": "This type of method will help you override how a property is retrieved using sequelize",
+        "answer": "What is a getter?"
+      },
+      {
+        "points": '$500',
+        "question": "If a User.hasMany(Post), and each Post has only one User, then Posts should have this association to Users",
+        "answer": "What is a belongsTo?"
       }
     ]
   },
   {
-    "category": "CSS",
+    "category": "Sassy Stylin'",
     "questions": [
       {
-        "points": 100,
-        "question": "<p>Constants (const) are:</p><ol><li>Block scoped</li><li>Function scoped</li><li>Global</li></ol>",
-        "answer": "A. Block scoped"
+        "points": '$100',
+        "question": "The CSS property which defines how much space is between the border and content of an HTML element",
+        "answer": "What is padding?"
       },
       {
-        "points": 200,
-        "question": "Name 3 new collection classes in ES2015",
-        "answer": "<ul><li>Map</li><li>WeakMap</li><li>Set</li><li>WeakSet</li></ul>"
+        "points": '$200',
+        "question": "If you want to make an element transparent, this CSS property can help",
+        "answer": "What is opacity?"
       },
       {
-        "points": 300,
-        "question": "<p>What's being logged and how is this new ES6 feature called?</p><code>var colors = ['red', 'blue', 'green'];<br/>var [primary, secondary, tertiary] = colors;<br/>console.log(secondary);</code>",
-        "answer": "<ul><li>blue</li><li>Array destructuring</li></ul>"
+        "points": '$300',
+        "question": "This CSS property allows you to give a box rounded corners",
+        "answer": "What is border-radius?"
       },
       {
-        "points": 400,
-        "question": "<p>What's being logged and name 4 new features of ES6 used in this code snippet?</p><code>let greeting = (name, msg='Hello') => `${msg}, ${name}`;<br/>console.log(greeting('Christophe');</code>",
-        "answer": "<p>Hello, Christophe</p><ul><li>let variables</li><li>Arrow functions</li><li>Default parameters</li><li>Template strings</li></ul>"
+        "points": '$400',
+        "question": "When using flex-box, this property can have values like 'flex-start', 'center', and 'space-between'",
+        "answer": "What is justify-content?"
+      },
+      {
+        "points": '$500',
+        "question": "When using position-absolute, this property makes a parent element the basis for the position",
+        "answer": "What is position: relative?"
       }
     ]
   },
   {
-    "category": "Feeling Lucky",
+    "category": "React on Instinct",
     "questions": [
       {
-        "points": 100,
-        "question": "Using the proposed ECMAScript module syntax, how do you load the Mortgage.js module from the current directory and make all its members available in an object named mortgage?",
-        "answer": "<code>import * as mortgage from './Mortgage';</code>"
+        "points": '$100',
+        "question": "This tag syntax is used by react, and it's definitly not HTML",
+        "answer": "What is JSX?"
       },
       {
-        "points": 200,
-        "question": "What are the colors of the olympic rings?",
-        "answer": "<img src='assets/img/olympic_rings.png'/>"
+        "points": '$200',
+        "question": "This is the method you should use to change state in react to avoid mutation",
+        "answer": "What is setState?"
       },
       {
-        "points": 300,
-        "question": "What's the date of the first React commit on GitHub?",
-        "answer": "May 26th, 2013"
+        "points": '$300',
+        "question": "This lifecycle hook runs after the component output has been rendered to the DOM",
+        "answer": "What is componentDidMount?"
       },
       {
-        "points": 400,
-        "question": "What's the hex color of the React logo?",
-        "answer": "#61DAFB"
+        "points": '$400',
+        "question": "In addition to react, you need this npm module to render react components in the DOM of a web page",
+        "answer": "What is react-dom?"
+      },
+      {
+        "points": '$500',
+        "question": "This lifecyle hook is called right before a component is removed from the DOM",
+        "answer": "What is componentWillUnmount?"
       }
+    ]
+  },
+  {
+    "category": "Are You Feelin' Reducksy",
+    "questions": [
+      {
+        "points": '$100',
+        "question": "This is a function that creates actions",
+        "answer": "What is an action creator?"
+      },
+      {
+        "points": '$200',
+        "question": "These redux methods return functions that interact with APIs and dispatch action creators",
+        "answer": "What are thunks?"
+      },
+      {
+        "points": '$300',
+        "question": "These redux functions specify how an application's state changes in response to actions sent to the store",
+        "answer": "What are reducers?"
+      },
+      {
+        "points": '$400',
+        "question": "Just like a component's state, you should never do this to an object in the redux store",
+        "answer": "What is mutate?"
+      },
+      {
+        "points": '$500',
+        "question": "This developer works on react.js and is the co-creator and most prolific contributor to redux",
+        "answer": "Who is Dan Abramov?"
+      },
+
     ]
   }
 ];

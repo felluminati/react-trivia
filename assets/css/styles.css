@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background: #263238;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Archivo', sans-serif;
     overflow: hidden;
 }
 
@@ -97,18 +97,20 @@ p {
 .card > .front {
     -webkit-transform: rotateY(0deg) !important;
     transform: rotateY(0deg) !important;
-    background-color: #61DAFB;
-    color: #FFFFFF;
+    background-color: rgb(23, 54, 232);
+    color: rgb(255, 217, 0);
     font-size: 54px;
+    text-shadow: 4px 4px black;
     z-index: 2;
 }
 
 .card > .back {
     -webkit-transform: rotateY(180deg) !important;
     transform: rotateY(180deg) !important;
-    background-color: #009CDF;
-    color: #FFFFFF;
-    font-size: 36px;
+    background-color: rgb(23, 54, 232);
+    color: rgb(255, 217, 0);
+    font-size: 72px;
+    text-shadow: 4px 4px black;
     font-weight: 300;
     padding: 0 50px;
 }
