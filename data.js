@@ -19,13 +19,13 @@ var data = [
       },
       {
         "points": '$400',
-        "question": "This app method is used to create new instances in your database",
-        "answer": "What is post?"
+        "question": "This res status is sent out when the post method successfully creates new instances in your database",
+        "answer": "What is 201?"
       },
       {
         "points": '$500',
-        "question": "This app method is for mounting a middleware function at the specified path and is executed whenever it matches the request path",
-        "answer": "What is use?"
+        "question": "When two response's are not constrained in an if/else block, this error is generated",
+        "answer": "What is 'Cannot set headers after they are sent to the client'?"
       }
     ]
   },
@@ -44,13 +44,13 @@ var data = [
       },
       {
         "points": '$300',
-        "question": "This sequelize method searches for an existing object. If it's not there, it makes it!",
-        "answer": "What is findOrCreate?"
+        "question": "This type of method will help you override how a property is retrieved using sequelize",
+        "answer": "What is a getter?"
       },
       {
         "points": '$400',
-        "question": "This type of method will help you override how a property is retrieved using sequelize",
-        "answer": "What is a getter?"
+        "question": `This type of join creates the ability to use "include" in queries to include data about related rows `,
+        "answer": "What is eager loading?"
       },
       {
         "points": '$500',
@@ -109,8 +109,8 @@ var data = [
       },
       {
         "points": '$400',
-        "question": "In addition to react, you need this npm module to render react components in the DOM of a web page",
-        "answer": "What is react-dom?"
+        "question": "this.props is called in this kind of component",
+        "answer": "What is a class based component?"
       },
       {
         "points": '$500',
