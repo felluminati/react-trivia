@@ -24,7 +24,7 @@ var data = [
       },
       {
         "points": '$500',
-        "question": "When two response's are not constrained in an if/else block, this error is generated",
+        "question": "When two responses are not constrained in an if/else block, this error is generated",
         "answer": "What is 'Cannot set headers after they are sent to the client'?"
       }
     ]
